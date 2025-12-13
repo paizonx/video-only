@@ -1,0 +1,19 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: autoplay=(self), fullscreen=(self)
+  Content-Security-Policy: default-src 'self' https: data: blob:; frame-src https:; script-src 'self' https: 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self' https:; 
+
+# cache static assets if you add them later
+/*.css
+  Cache-Control: public, max-age=604800, immutable
+/*.js
+  Cache-Control: public, max-age=604800, immutable
+/*.png
+  Cache-Control: public, max-age=604800, immutable
+/*.jpg
+  Cache-Control: public, max-age=604800, immutable
+/*.jpeg
+  Cache-Control: public, max-age=604800, immutable
+/*.webp
+  Cache-Control: public, max-age=604800, immutable
